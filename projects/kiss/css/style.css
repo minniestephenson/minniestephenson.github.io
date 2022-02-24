@@ -1,0 +1,37 @@
+/* font options 
+font-family: 'Poppins', sans-serif;
+font-family: 'Merriweather', serif;
+
+Poppins Regular 400
+Merriweather Regular 400, Bold 700
+*/
+
+h1 {
+    color: #CD5E06;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header img {
+    width: 30%;
+    display: block;
+}
+
+.intro {
+    line-height: 2;
+    background: #FADA5E;
+    padding: 1%;
+}
+
+body {
+    padding: 3.5%;
+    font-family: 'Merriweather', serif;
+}
+
+main {
+    line-height: 1.2;
+}
+
+main img {
+    width: 20%;
+}
