@@ -1,0 +1,87 @@
+
+body {
+    background: #050037;
+    color: #FFFCF9;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.nav-link {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #FFFCF9;
+    font-weight: 200;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4em;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2em;
+    font-weight: 350; 
+}
+
+nav {
+    text-align: center;
+    margin: 3px;
+}
+
+a:hover,
+.nav-link:hover {
+    color: #EC9F27
+}
+
+a {
+    color: #FFFCF9;
+}
+
+.col-md-4 {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.col-md-4 img {
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    margin: 30px;
+    font-size: 0.8em;
+}
+
+
+
+
+/* font options
+Nunito Sans
+Extra-light 200
+Extra-light 200 italic
+Light 300
+Light 300 italic
+Regular 400
+Regular 400 italic
+font-family: 'Nunito Sans', sans-serif;
+
+Playfair Display
+Regular 400
+Regular 400 italic
+Medium 500
+Medium 500 italic
+Semi-bold 600
+Semi-bold 600 italic
+Bold 700
+Bold 700 italic
+Extra-bold 800
+font-family: 'Playfair Display', serif;
+
+color: #000342
+color: #FFFCF9
+color: #EC9F27
+
+
