@@ -1,0 +1,51 @@
+h1,
+nav,
+.navbar {
+text-align: center;
+word-spacing: 60px;
+}
+
+nav {
+margin-bottom: 40px;
+}
+
+img {
+    width: 400px;
+}
+
+.logo {
+    width: 50px;
+}
+
+
+
+/*
+
+Raleway
+Thin 100
+Extra-light 200
+Extra-light 200 italic
+Light 300
+Light 300 italic
+Regular 400
+Medium 500
+Medium 500 italic
+Semi-bold 600
+Semi-bold 600 italic
+Bold 700
+Bold 700 italic
+Extra-bold 800
+Black 900
+
+Lora
+Regular 400
+Regular 400 italic
+Medium 500
+Medium 500 italic
+Semi-bold 600
+Semi-bold 600 italic
+Bold 700
+Bold 700 italic
+
+pink: #FFAA90
+turqoiuse: #99CCC6
