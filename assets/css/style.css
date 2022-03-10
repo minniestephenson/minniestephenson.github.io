@@ -3,7 +3,14 @@ nav,
 .navbar {
 text-align: center;
 word-spacing: 60px;
+font-family: 'Raleway', sans-serif;
 }
+
+h1 {
+    font-size: 4em;
+}
+
+
 
 nav {
 margin-bottom: 40px;
@@ -17,6 +24,10 @@ img {
     width: 50px;
 }
 
+p,
+h2 {
+    font-family: 'Lora', serif; 
+}
 
 
 /*
@@ -37,6 +48,8 @@ Bold 700 italic
 Extra-bold 800
 Black 900
 
+font-family: 'Raleway', sans-serif;
+
 Lora
 Regular 400
 Regular 400 italic
@@ -46,6 +59,8 @@ Semi-bold 600
 Semi-bold 600 italic
 Bold 700
 Bold 700 italic
+
+font-family: 'Lora', serif;
 
 pink: #FFAA90
 turqoiuse: #99CCC6
