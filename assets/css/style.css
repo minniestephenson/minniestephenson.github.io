@@ -1,32 +1,78 @@
+
+body {
+    background-color: #C2D7D0;
+}
+
 h1,
-nav,
-.navbar {
-text-align: center;
-word-spacing: 60px;
-font-family: 'Raleway', sans-serif;
+nav {
+    text-align: center;
+    word-spacing: 60px;
+    font-family: 'Raleway', sans-serif;
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 5em;
+    color: #FF9979;
+    font-weight: 550;
 }
 
 
 
+a {
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF9979;
+}
+
 nav {
-margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 img {
-    width: 400px;
+    width: 450px;
 }
 
 .logo {
     width: 50px;
+    
 }
 
 p,
 h2 {
-    font-family: 'Lora', serif; 
+    font-family: 'Lora', serif;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 3em;
+    padding-bottom: 20px;
+
+}
+
+.col {
+    margin: 100px;
+    padding-bottom: 150px;
+}
+
+
+footer {
+    background-color: #FFAA90;
+    padding: 20px 0;
+    text-align: center
+
+}
+
+footer a {
+    display: inline;
+    padding: 0 175px;
+}
+
+footer a:hover {
+    color: #C2D7D0;
 }
 
 
@@ -63,4 +109,7 @@ Bold 700 italic
 font-family: 'Lora', serif;
 
 pink: #FFAA90
+darker pink: #FF9979
 turqoiuse: #99CCC6
+greenish: #C2D7D0
+lighter greenish: #CBE2DA
