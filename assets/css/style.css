@@ -12,14 +12,15 @@ nav {
 h1 {
     font-size: 5em;
     color: #FF9979;
-    font-weight: 525;
+    font-weight: 500;
 }
 
 
 a {
-    color: white;
-    font-weight: 400;
+    color: white; 
     text-decoration: none;
+    font-weight: 400;
+    font-size: 1.15em;
 }
 
 a:hover {
@@ -30,19 +31,19 @@ nav {
     margin-bottom: 40px;
 }
 
-.col img {
+ .col-sm-6 img {
     width: 450px;
-}
+    padding-top: 50px; 
+} 
 
 .logo {
     width: 50px;
-
 }
 
 p,
 h2 {
     font-family: 'EB Garamond', serif;
-}
+} 
 
 h2 {
     font-weight: 500;
@@ -50,31 +51,61 @@ h2 {
     padding-bottom: 20px;
 }
 
-p {
-    font-weight: 400;
-    font-size: 1.2em;
+p, 
+ul {
+    font-size: 1.2em; 
 }
 
-.col {
+.resume {
+    font-family: 'EB Garamond', serif;
     margin: 100px;
-    padding-bottom: 150px;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.btn {
+    background-color: #FF9979;
+    border-color: #FF9979;
+}
+
+.btn:hover {
+    background-color: #99CCC6;
+    border-color: #99CCC6;
+}
+
+.row {
+    padding: 50px 0 50px 130px;
+}
+
+.container {
+    margin-left: 0px;
+    padding-right: 25px;
+    
+    
 }
 
 
 footer {
     background-color: #FFAA90;
+    margin-top: 150px;
     padding: 20px 0;
-    text-align: center
+    text-align: center;
 }
 
 footer a {
     display: inline;
     padding: 0 175px;
+    font-family: 'Raleway', sans-serif;
 }
 
+
 footer a:hover {
-    color: #C2D7D0;
+    color: black;
 }
+
 
 
 /*
