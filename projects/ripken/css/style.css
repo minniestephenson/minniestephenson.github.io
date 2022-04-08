@@ -1,0 +1,216 @@
+body {
+    font-size: 18px;
+    font-family: 'Archivo', sans-serif;
+    color: #f5f5f5;
+    background-color: #080707;
+}
+
+a {
+    color: #f5f5f5;
+    text-decoration-color: #df4601;
+    font-weight: 600;
+}
+
+a:hover {
+    background-color: #f5f5f5;
+    color: #df4601;
+}
+
+header {
+    height: 100vh;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 300;
+    font-size: .8em;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+}
+
+.subhead {
+    color: #f5f5f5;
+    background-color: #df4601;
+    display: inline;
+    padding: 1% 2%;
+}
+
+h1 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 3em;
+    font-weight: 800;
+    text-transform: none;
+}
+
+video {
+    width: 100%;
+}
+
+section {
+    width: 65%;
+    margin: 0 auto;
+    padding: 5% 0;
+}
+
+.graphic {
+    padding: 5%;
+    background-color: #ffffff;
+}
+
+.name {
+    text-transform: uppercase;
+    color: #df4601;
+}
+
+.caption {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: .8em;
+    font-style: italic;
+    color: #d4c9c3;
+}
+
+h2 {
+    color: #080707;
+    background-color: #f5f5f5;
+    margin: 5% 0;
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 1.3px;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+blockquote {
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    background-color: #df4601;
+    padding: 2%;
+}
+
+blockquote .quote {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+blockquote .cite {
+    font-style: italic;
+    font-size: .8em;
+}
+
+.chart {
+    background-color: #ffffff;
+    padding: 5%;
+}
+
+.intro {
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+@media (min-width: 1000px) {
+    header {
+        margin: 15% 2% 0 0;
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        text-align: center;
+    }
+
+    video {
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 850px) {
+    header {
+        margin-top: 25%;
+    }
+
+    .chart {
+        padding: 2%;
+    }
+
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:450px) {
+    header {
+        margin-top: 50%;
+    }
+
+    section,
+    footer {
+        width: 95%;
+    }
+
+    .caption {
+        font-size: .9em;
+    }
+
+    body {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Barlow Condensed
+Light 300
+Light 300 Italic
+font-family: 'Barlow Condensed', sans-serif;
+
+Manrope
+Regular 400
+Medium 500
+ExtraBold 800
+font-family: 'Manrope', sans-serif;
+
+Archivo
+Regular 400
+SemiBold 600
+font-family: 'Archivo', sans-serif;
+
+offwhite: #f5f5f5
+black: #080707
+orange: #df4601
+pure white: #ffffff
+beige: #d4c9c3
