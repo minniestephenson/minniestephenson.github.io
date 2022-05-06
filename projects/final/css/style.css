@@ -1,0 +1,63 @@
+body {
+    background-color: #202028;
+    color: #EAEAEA;
+    font-family: 'Patrick Hand', cursive;
+}
+
+header {
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    padding: 200px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #24E323;
+}
+
+img {
+    padding: 50px;
+}
+
+.data {
+    padding: 75px;
+}
+
+p {
+    font-size: 1.3em;
+     
+}
+
+
+
+
+
+
+/*
+dark gray: #202028;
+neon green: #24E323;
+duller green: #0BD716;
+neon blue: #0012FF;
+white: #EAEAEA;
+
+font-family: 'Titillium Web', sans-serif;
+ExtraLight 200
+ExtraLight 200 Italic
+Light 300
+Light 300 Italic
+Regular 400
+Regular 400 Italic
+SemiBold 600
+SemiBold 600 Italic
+Bold 700
+Bold 700 Italic
+
+font-family: 'Patrick Hand', cursive;
+Regular 400
+
