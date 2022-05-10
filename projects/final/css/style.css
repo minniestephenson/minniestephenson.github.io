@@ -1,42 +1,115 @@
 body {
     background-color: #202028;
     color: #EAEAEA;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.3em;
 }
 
 header {
     font-family: 'Titillium Web', sans-serif;
     text-align: center;
-    padding: 200px;
 }
 
+
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 400;
     padding-bottom: 20px;
 }
 
 h2 {
-    font-size: 1.5em;
-    color: #24E323;
+    font-size: 1.3em;
+    color: #9FFF7A;
 }
 
 img {
-    padding: 50px;
+    padding: 50px 0 0 0;
+}
+
+.caption {
+    padding: 0 0 50px 0;
+    font-size: 0.9em;
 }
 
 .data {
     padding: 75px;
+    background-color: white;
+    margin: 50px 0;
 }
 
 p {
-    font-size: 1.3em;
-     
+    font-weight: 100;    
 }
 
+audio {
+    float: right;
+    margin: 25px;
+}
 
+main {
+    width: 80%;
+    margin: 0 auto;
+}
 
+.overlay-mobile {
+    font-family: 'Titillium Web', sans-serif;
+}
 
+.video {
+    position:relative;
+    margin: 0 0 50px 0;
+}
+
+.video video {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    opacity: 50%;
+}
+
+.overlay {
+    position: absolute;
+    width: 75%;
+    top: 25%;
+    left: 25%;
+    z-index: 1;
+}
+
+@media (min-width: 450px) {
+    .overlay-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 775px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    .overlay {
+        text-align: center;
+        left: 15%;
+    }
+}
+
+@media (max-width: 450px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: .8em;
+    }
+    main {
+        width: 100%;
+        padding: 50px 0 0 0;
+    }
+    .data {
+        padding: 25px;   
+    }
+    .overlay {
+        display: none;
+    }
+
+}
 
 
 /*
@@ -45,6 +118,7 @@ neon green: #24E323;
 duller green: #0BD716;
 neon blue: #0012FF;
 white: #EAEAEA;
+lighter green: #9FFF7A;
 
 font-family: 'Titillium Web', sans-serif;
 ExtraLight 200
@@ -60,4 +134,36 @@ Bold 700 Italic
 
 font-family: 'Patrick Hand', cursive;
 Regular 400
+
+font-family: 'Comic Neue', cursive;
+Light 300
+Light 300 Italic
+Regular 400
+Regular 400 Italic
+Bold 700
+
+font-family: 'Dosis', sans-serif;
+ExtraLight 200
+Light 300
+Regular 400
+Medium 500
+SemiBold 600
+Bold 700
+
+font-family: 'IBM Plex Sans', sans-serif;
+Thin 100
+Thin 100 Italic
+ExtraLight 200
+ExtraLight 200 Italic
+Light 300
+Light 300 Italic
+Regular 400
+Regular 400 Italic
+Medium 500
+Medium 500 Italic
+SemiBold 600
+SemiBold 600 Italic
+Bold 700
+
+
 
