@@ -3,6 +3,7 @@ body {
     color: #EAEAEA;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 1.3em;
+    margin-bottom: 40px;  
 }
 
 header {
@@ -10,10 +11,8 @@ header {
     text-align: center;
 }
 
-
 h1 {
     font-size: 2em;
-    font-weight: 400;
     padding-bottom: 20px;
 }
 
@@ -27,8 +26,8 @@ img {
 }
 
 .caption {
-    padding: 0 0 50px 0;
-    font-size: 0.9em;
+    padding: 10px 0 35px 0;
+    font-size: 0.8em;
 }
 
 .data {
@@ -39,6 +38,10 @@ img {
 
 p {
     font-weight: 100;    
+}
+
+.quote {
+    font-weight: 400;
 }
 
 audio {
@@ -67,12 +70,11 @@ main {
     opacity: 50%;
 }
 
-.overlay {
+.overlay-desktop {
     position: absolute;
     width: 75%;
     top: 25%;
-    left: 25%;
-    z-index: 1;
+    left: 15%;
 }
 
 @media (min-width: 450px) {
@@ -81,35 +83,40 @@ main {
     }
 }
 
-@media (max-width: 775px) {
-    h1 {
-        font-size: 1.5em;
-    }
-    .overlay {
-        text-align: center;
-        left: 15%;
-    }
-}
-
-@media (max-width: 450px) {
+@media (max-width: 850px) {
     h1 {
         font-size: 1.5em;
     }
     h2 {
-        font-size: .8em;
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 635px) {
+    h1 {
+        font-size: 1.2em;
+    }
+    h2 {
+        font-size: .7em;
     }
     main {
         width: 100%;
         padding: 50px 0 0 0;
     }
     .data {
-        padding: 25px;   
+        padding: 25px;
+
     }
-    .overlay {
+    .caption {
+        font-size: 0.7em;
+    }
+    .overlay-desktop {
         display: none;
     }
 
 }
+
+
 
 
 /*
@@ -131,24 +138,6 @@ SemiBold 600
 SemiBold 600 Italic
 Bold 700
 Bold 700 Italic
-
-font-family: 'Patrick Hand', cursive;
-Regular 400
-
-font-family: 'Comic Neue', cursive;
-Light 300
-Light 300 Italic
-Regular 400
-Regular 400 Italic
-Bold 700
-
-font-family: 'Dosis', sans-serif;
-ExtraLight 200
-Light 300
-Regular 400
-Medium 500
-SemiBold 600
-Bold 700
 
 font-family: 'IBM Plex Sans', sans-serif;
 Thin 100
