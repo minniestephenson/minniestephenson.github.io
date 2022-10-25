@@ -77,7 +77,11 @@ h3 {
     border-color: #99CCC6;
 }
 
-.row {
+.card {
+   margin: 20px 0 0 0; 
+}
+
+/*.row {
     padding: 50px 0 50px 130px;
 }
 
@@ -86,7 +90,7 @@ h3 {
     padding-right: 25px;
     
     
-}
+} */
 
 
 footer {
